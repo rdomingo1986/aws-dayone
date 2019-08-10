@@ -1,0 +1,69 @@
+body,
+html {
+	width:100%;
+	height:100%;
+	
+}
+
+#mapid, #mapdibujo {
+  height:88vh;
+	width:100hv;
+  z-index:1;
+	margin-top:-20px;
+}
+
+#transparencia {
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:2;
+	border:0px solid red;
+	background-color: rgba(0,0,0,0.6)
+}
+
+#panel-derecho {
+	left:0%;
+	width:30%;
+	height:100%;
+	background-color:white;
+	position:fixed;
+	border:0px solid black;
+	z-index:3;
+}
+
+.loadingSend {
+	position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1200;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#loadingIcon {
+	color: white;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+  text-align:center;
+	margin-left: auto;
+	margin-right: auto; 
+	width:auto /*whatever width you want*/;
+}
+
+/*
+
+*/
