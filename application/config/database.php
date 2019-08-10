@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['dev'] = array(
 	'dsn'	=> '',
-	'hostname' => $_SERVER['PRDS_HOSTNAME'],
-	'username' => $_SERVER['PRDS_USERNAME'],
-	'password' => $_SERVER['PRDS_PASSWORD'],
-	'database' => $_SERVER['PRDS_DB_NAME'],
+	'hostname' => $_SERVER['RDS_HOSTNAME'],
+	'username' => $_SERVER['RDS_USERNAME'],
+	'password' => $_SERVER['RDS_PASSWORD'],
+	'database' => $_SERVER['RDS_DB_NAME'],
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
